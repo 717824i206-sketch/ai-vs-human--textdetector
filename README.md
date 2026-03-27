@@ -1,27 +1,27 @@
-# 🤖 AI vs Human Text Detection System
-## 📌 Project Overview
+# AI vs Human Text Detection System
+## Project Overview
 This project is a Machine Learning-based system that classifies whether a given text is:
 * Human-written
 * AI-generated
 The system also provides a confidence score and a decision based on prediction probability.
-## 📊 Dataset
+##  Dataset
 * **Source**: Public dataset (GitHub / online sources)
 * **Number of Samples**: XXXX (replace with your dataset size)
 * **Columns**:
   * `text` → Input text
   * `label` → 0 (Human), 1 (AI)
-## ⚙️ Preprocessing Steps
+## Preprocessing Steps
 * Converted text to lowercase
 * Removed punctuation and special characters
 * Cleaned unnecessary spaces
-## 🔢 Feature Extraction
+## Feature Extraction
 * Used **TF-IDF Vectorizer**
 * Included **n-grams** for better accuracy
-## 🤖 Models Used
+## Models Used
 * Logistic Regression
 * Naive Bayes
 * Random Forest
-## 📈 Model Evaluation
+##  Model Evaluation
 * Accuracy used as evaluation metric
 * Compared performance of multiple models
 ## Decision Layer
@@ -33,7 +33,7 @@ Based on probability score:
 * Built using Flask (backend)
 * HTML/CSS for frontend
 * Allows user to input text and get real-time prediction
-▶️ How to Run
+  How to Run
 1. Install dependencies:
 pip install pandas scikit-learn flask
 2. Run the application:
